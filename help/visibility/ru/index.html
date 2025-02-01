@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <title>Кто может видеть мои данные</title>
+    <link rel="icon" type="image/png" href="https://agent.mail.ru/img/agent/favicon-16x16.png" sizes="16x16">
+    <style>
+        body {
+            text-align: center;
+            margin: 0;
+            font-family: SF Pro Display, Roboto, Open Sans, Helvetica, Arial, sans-serif;
+        }
+        .icq-main-block {
+            max-width: 750px;
+            display: inline-block;
+            text-align: left;
+            padding: 56px 30px 32px 30px;
+        }
+        .icq-main-icon {
+            background: url(../glasses@3x.png) no-repeat center;
+            background-size: contain;
+            width: 80px;
+            height: 80px;
+        }
+        .icq-title {
+            font-size: 32px;
+            font-weight: bold;
+            margin: 16px 0 24px;
+        }
+        .icq-content {
+            font-size: 16px;
+            line-height: 1.38;
+            letter-spacing: -0.4px;
+        }
+        .icq-list {
+            padding-left: 12px;
+            margin: 0;
+            list-style-position: inside;
+        }
+        .icq-list li {
+            margin: 12px 0;
+        }
+        .icq-sub-list {
+            list-style-type: disc;
+            list-style-position: inside;
+            padding-left: 27px;
+            margin: 12px 0 4px;
+        }
+        @media screen and (max-width: 900px) {
+            .icq-main-block {
+                padding: 32px 15px;
+            }
+            .icq-main-icon {
+                width: 48px;
+                height: 48px;
+            }
+            .icq-title {
+                margin: 8px 0 12px;
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="icq-main-block">
+        <div class="icq-main-icon"></div>
+        
+        <div class="icq-title">Какие данные обо мне другие могут увидеть?</div>
+        <div class="icq-content">
+            Другие люди могут увидеть следующую информацию о вас:
+            <ul class="icq-sub-list">
+                <li>Аватар</li>
+                <li>Имя</li>
+                <li>Фамилия</li>
+                <li>Email</li>
+                <li>О вас</li>
+            </ul>
+        </div>
+        
+        <div class="icq-title">Кто может увидеть мой мобильный телефон?</div>
+        <div class="icq-content">
+            Ваш мобильный телефон отображается тем, кто у вас в списке контактов, и тем, кто находится в вашем списке контактов.
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,146 @@
+body {
+	text-align: center;
+	margin: 0;
+	font-family: SF Pro Display,Roboto,Open Sans,Helvetica,Arial,Sans-serif;
+}
+.icq-main-block {
+	max-width: 750px;
+	display: inline-block;
+	text-align: left;
+	padding: 56px 30px 32px 30px;
+}
+
+.icq-main-icon {
+	background: url(/web/20250131155820im_/https://agent.mail.ru/img/glasses@3x.png) no-repeat center;
+	background-size: contain;
+	width: 80px;
+	height: 80px;
+}
+
+.icq-settings .icq-main-icon {
+	background-image: url(/web/20250131155820im_/https://agent.mail.ru/img/file-folder@3x.png);
+}
+
+.icq-title {
+	font-size: 32px;
+	font-weight: bold;
+	margin: 16px 0 24px;
+}
+
+.icq-content {
+	font-size: 16px;
+	line-height: 1.38;
+	letter-spacing: -0.4px;
+}
+
+.icq-list {
+	padding-left: 12px;
+	margin: 0;
+	list-style-position: inside;
+}
+
+.icq-list li {
+	margin: 12px 0;
+}
+
+.icq-list li:before {
+	content: '';
+	display: inline-block;
+	width: 3px;
+}
+
+.icq-sub-list {
+	list-style-type: disc;
+	list-style-position: inside;
+	padding-left: 27px;
+	margin: 12px 0 4px;
+}
+
+.icq-sub-list li {
+	margin: 0;
+}
+
+.icq-sub-list li:before {
+	width: 0;
+}
+
+.icq-feedback {
+	border-top: 1px solid;
+	padding: 19px 0;
+	opacity: 0.9;
+	margin-top: 48px;
+}
+
+.icq-feedback span {
+	line-height: 32px;
+}
+
+.icq-feedback__buttons {
+	float: right;
+}
+
+.icq-feedback__buttons button {
+	border-radius: 4px;
+	display: inline-block;
+	font: inherit;
+	margin-left: 12px;
+	padding: 5px 16px;
+	border: none;
+}
+
+.icq-bottom-block {
+	border-top: 1px solid;
+}
+
+.icq-questions {
+	border: none;
+	font: inherit;
+	border-radius: 28px;
+	opacity: 0.9;
+	padding: 17px 29px;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+/* --------- theme --------- */
+
+.icq-main-block {
+	background: #ffffff;
+}
+
+.icq-title, .icq-content {
+	color: #000000;
+}
+
+.icq-content a {
+	color: #027aff;
+}
+
+.icq-feedback, .icq-bottom-block {
+	border-top-color: #e3e5e9;
+}
+
+.icq-feedback__buttons button, .icq-questions {
+	background: #2bae53;
+	color: #ffffff;
+}
+
+/* ---------- theme end ---------*/
+
+@media screen and (max-width: 900px) {
+	.icq-main-block {
+		padding: 32px 15px;
+	}
+	.icq-main-icon {
+		width: 48px;
+		height: 48px;
+	}
+	.icq-feedback__buttons {
+		float: none;
+		margin-left: -12px;
+	}
+	.icq-title {
+		margin: 8px 0 12px;
+		font-size: 24px;
+	}
+}
